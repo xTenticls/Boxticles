@@ -89,11 +89,11 @@ function CreateEsp(Player)
                 HealthBarOutline.Visible = false
             end
         else
-            Box.Visible = false
-            BoxOutline.Visible = false
-            Name.Visible = false
-            HealthBar.Visible = false
-            HealthBarOutline.Visible = false
+            Box.Visible = Toggles.BoxESP.Value
+            BoxOutline.Visible = Toggles.BoxESP.Value
+            Name.Visible = Toggles.BoxESP.Value
+            HealthBar.Visible = Toggles.BoxESP.Value
+            HealthBarOutline.Visible = Toggles.BoxESP.Value
             if not Player then
                 Box:Remove()
                 BoxOutline:Remove()
